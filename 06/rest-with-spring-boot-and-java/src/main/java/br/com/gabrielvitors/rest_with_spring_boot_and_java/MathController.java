@@ -65,6 +65,7 @@ public class MathController {
                 NumberConvert.convertToDouble(numberOne),
                 NumberConvert.convertToDouble(numberTwo)
         );
+        
     }
 
     @RequestMapping(value = "/squareRoot/{number}", method = RequestMethod.GET)
